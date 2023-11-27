@@ -50,6 +50,16 @@ new GameData
 
 ## Additional Information
 - Ensure your API endpoint is correctly set up and accessible.
+- Modification in the number of users/requests and Time for the API calls can be adjusted in the below lines in the Program.cs file
+### Example Average Load Testing
+```csharp
+var stages = new List<(TimeSpan duration, int target)>
+ {
+    (TimeSpan.FromMinutes(5), 100),  // Ramp-up to 100 users over 5 minutes
+    (TimeSpan.FromMinutes(30), 100), // Stay at 100 users for 30 minutes
+    (TimeSpan.FromMinutes(5), 0)     // Ramp-down to 0 users
+ };
+```
 
 ## Smoke Test Results
 Below is a sample output from running smoke tests:
