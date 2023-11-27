@@ -53,4 +53,5 @@ new GameData
 
 ## Smoke Test Results
 Below is a sample output from running smoke tests:
+![Smoke TEst](Image/SmokeTest.png)
 
