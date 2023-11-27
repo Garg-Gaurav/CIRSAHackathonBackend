@@ -50,3 +50,7 @@ new GameData
 
 ## Additional Information
 - Ensure your API endpoint is correctly set up and accessible.
+
+## Smoke Test Results
+Below is a sample output from running smoke tests:
+
