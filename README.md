@@ -53,5 +53,22 @@ new GameData
 
 ## Smoke Test Results
 Below is a sample output from running smoke tests:
-![Smoke TEst](Image/SmokeTest.png)
+![Smoke Test](Images/SmokeTest.png)
+
+Below are the results of the Average Load Test:
+![Smoke Test](Images/SmokeTest.png)
+
+<img src="Images/AverageLoadModel.png" alt="Number of Requests modeled in Average Load" width="300" height="300"/>
+
+Below are the results of SpikeTest:
+<img src="Images/SpikeLoad.png" alt="Number of Requests modeled in Spike Load" width="300" height="300"/>
+
+
+
+
+## Note
+- During the multiuser load for the Average and Spike test the IDs and Data used are not changed.
+- 
+
+
 
